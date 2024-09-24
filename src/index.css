@@ -1,8 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'jura-regular',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +13,117 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.custom-gradient {
+  @apply w-full h-auto rounded-[5px] bg-no-repeat bg-[100%_100%];
+  background-image: linear-gradient(478deg, #FFFFFF 60%, #0F0741 40%);
+}
+
+@media (max-width: 768px) {
+  .custom-gradient {
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+
+
+
+
+
+ul li{
+  list-style: none;
+}
+
+
+
+.text-style {
+  @apply font-jura text-[14px];
+}
+
+.home-heading {
+  @apply font-karlaBold tracking-[-0.8px] font-extrabold md:leading-[64px] leading-[46px] md:text-[44px] text-[30px] text-black;
+}
+
+.home-content {
+  @apply xl:text-[18px] md:text-[37px] text-[18px] font-jost text-black;
+}
+
+.get-app-btn {
+  @apply font-josefin text-[18px] bg-primary text-white md:w-[202px] w-[162px] h-[52px] md:h-[61px] font-light rounded-[10px];
+}
+
+.signup {
+  @apply font-karla text-[18px] md:w-[202px] md:h-[58px] w-[150px] h-[52px] rounded-[8px] bg-white border border-solid text-black;
+}
+
+.aboutus-heading {
+  @apply text-[48px] font-karlaBold font-bold;
+}
+
+.aboutus-heading-subheading {
+  @apply text-[63px];
+}
+
+.lispace {
+  @apply leading-[60px];
+}
+
+.aboutus-p {
+  @apply leading-[28px];
+}
+
+.aboutus-p1 {
+  @apply leading-[27px] mt-[30px];
+}
+
+.sb {
+  @apply text-[18px] font-jost;
+}
+
+.aboutus-btn {
+  @apply font-josefin text-white items-center bg-secondary text-[15px] py-[7px] px-[20px];
+}
+
+.Boost-Productivity {
+  @apply text-[24px] font-jost font-medium;
+}
+
+
+@media (max-width : 768px){ 
+  .res {
+    display: none !important;
+  }
+}
+
+
+
+
+
+.feature-heading {
+  @apply font-karla tracking-[-0.8px] leading-[45px] text-[44px];
+}
+
+/* About Us section classes */
+
+/* Custom Styles for Box Component */
+.box-ab {
+  @apply pt-6 h-56 md:w-[320px] rounded-3xl shadow-lg ;
+}
+
+.box-icon-ab-1 {
+  @apply flex items-center justify-center bg-white w-12 h-12 rounded-full mx-auto;
+}
+
+.box-icon-ab {
+  @apply w-8 h-8;
+}
+
+.box-title-ab {
+  @apply text-xl font-semibold mb-4 text-center;
+}
+
+.box-text-ab {
+  @apply text-[#000] text-center font-jost leading-[21px] ;
 }

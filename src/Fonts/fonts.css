@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'jura bold';
+    src: url('./Jura-Bold.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'jura light';
+    src: url('./Jura-Light.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'jura regular';
+    src: url('./Jura-Regular.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'jura medium';
+    src: url('./Jura-Medium.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'jura semibold';
+    src: url('./Jura-SemiBold.ttf') format('opentype');
+  }
+
+  /* ---------------------karla Font start------------------- */
+  
+  @font-face {
+    font-family: 'karla extrabold';
+    src: url('./Karla-ExtraBold.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'karla bold';
+    src: url('./Karla-Bold.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'karla light';
+    src: url('./Karla-Light.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'karla regular';
+    src: url('./Karla-Regular.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'karla medium';
+    src: url('./Karla-Medium.ttf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'karla semibold';
+    src: url('./Karla-SemiBold.ttf') format('opentype');
+  }
